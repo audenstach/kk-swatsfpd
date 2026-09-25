@@ -394,7 +394,7 @@ function main()
 		wait(0)
 	end
 
-	-- autoupdate("https://pastebin.com/raw/LTB62tj5", "[" .. string.upper(thisScript().name) .. "]: ", "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1PpkOPBLzYtos4kNNjiKsr8wBeLAywT0v")
+	autoupdate("https://raw.githubusercontent.com/audenstach/kk-swatsfpd/refs/heads/main/version.json", "[" .. string.upper(thisScript().name) .. "]: ", "https://raw.githubusercontent.com/audenstach/kk-swatsfpd/refs/heads/main/kk%20swatsfpd.lua")
 
 	local var_1_0 = table.concat(var_0_3.getKeysName(decodeJson(var_0_12.cfg.HotKeyMenu)), " + ")
 
